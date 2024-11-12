@@ -2,7 +2,7 @@
  * @Author: SingleBiu
  * @Date: 2024-10-06 18:44:32
  * @LastEditors: SingleBiu
- * @LastEditTime: 2024-10-07 19:39:47
+ * @LastEditTime: 2024-11-12 16:44:33
  * @Description: file content
  */
 #include<stdio.h>
@@ -46,7 +46,7 @@ int main()
             #if DEBUG
                 printf("Output:\n%s\n",c_str_tesseract);
             #endif
-            // system(c_str_tesseract);
+            system(c_str_tesseract);
             break;
         case 2:
             printf("Please input the url of the picture:\n");
