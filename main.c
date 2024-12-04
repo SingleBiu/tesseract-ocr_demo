@@ -2,7 +2,7 @@
  * @Author: SingleBiu
  * @Date: 2024-10-06 18:44:32
  * @LastEditors: SingleBiu
- * @LastEditTime: 2024-11-12 16:44:33
+ * @LastEditTime: 2024-12-04 16:45:18
  * @Description: file content
  */
 #include<stdio.h>
@@ -14,7 +14,12 @@
 int main()
 {
     char c_str_tesseract[128] = "tesseract ";
-    char c_str_lang[12] = " -l chi_sim";
+    char c_str_lang[12] = " -l eng";        //English
+    // char c_str_lang[12] = " -l chi_sim"; //Chinese
+    // char c_str_lang[12] = " -l deu";     //German
+    // char c_str_lang[12] = " -l jpn";     //Japanese
+    // char c_str_lang[12] = " -l rus";     //Russian
+    // char c_str_lang[12] = " -l fra";     //Franch
     char c_filename[32];
     char c_user_input[64];
     int  i_choice;    
