@@ -1,5 +1,5 @@
 [Usage]  
 sudo apt install tesseract-ocr  
-cp xxx.traineddata /usr/share/tesseract-ocr/4.00/tessdata/  
+cp xxx.traineddata /usr/share/tesseract-ocr/5/tessdata/  
 make  
 ./out  
